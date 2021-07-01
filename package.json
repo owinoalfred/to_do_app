@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bild": "tailwind build src/style.css o- public/index.css"
+    "build-css": "tailwindcss build src/style.css o- public/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.5",
